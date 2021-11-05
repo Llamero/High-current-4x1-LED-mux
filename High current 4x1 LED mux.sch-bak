@@ -27,19 +27,6 @@ $EndComp
 $Comp
 L Custom_parts:8P8C_Shielded_x4 J3
 U 4 1 5F58DBB9
-P 7700 8100
-F 0 "J3" H 7800 8750 50  0000 R CNN
-F 1 "8P8C_Shielded_x4" H 8050 8650 50  0000 R CNN
-F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7700 8125 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7700 8125 50  0001 C CNN
-F 4 "Amphenol ICC (Commercial Products)" H 7700 8100 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 7700 8100 50  0001 C CNN "Part #"
-	4    7700 8100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_parts:8P8C_Shielded_x4 J3
-U 3 1 5F57B5E3
 P 7700 6800
 F 0 "J3" H 7800 7450 50  0000 R CNN
 F 1 "8P8C_Shielded_x4" H 8050 7350 50  0000 R CNN
@@ -47,7 +34,20 @@ F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7700 6825 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7700 6825 50  0001 C CNN
 F 4 "Amphenol ICC (Commercial Products)" H 7700 6800 50  0001 C CNN "Manufacturer"
 F 5 "RJSSE-5380-04" H 7700 6800 50  0001 C CNN "Part #"
-	3    7700 6800
+	4    7700 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Custom_parts:8P8C_Shielded_x4 J3
+U 3 1 5F57B5E3
+P 7650 4200
+F 0 "J3" H 7750 4850 50  0000 R CNN
+F 1 "8P8C_Shielded_x4" H 8000 4750 50  0000 R CNN
+F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7650 4225 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7650 4225 50  0001 C CNN
+F 4 "Amphenol ICC (Commercial Products)" H 7650 4200 50  0001 C CNN "Manufacturer"
+F 5 "RJSSE-5380-04" H 7650 4200 50  0001 C CNN "Part #"
+	3    7650 4200
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -149,14 +149,14 @@ $EndComp
 $Comp
 L Custom_parts:8P8C_Shielded_x4 J3
 U 1 1 5F5922AC
-P 7650 4200
-F 0 "J3" H 7700 4850 50  0000 R CNN
-F 1 "8P8C_Shielded_x4" H 8000 4750 50  0000 R CNN
-F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7650 4225 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7650 4225 50  0001 C CNN
-F 4 "Amphenol ICC (Commercial Products)" H 7650 4200 50  0001 C CNN "Manufacturer"
-F 5 "RJSSE-5380-04" H 7650 4200 50  0001 C CNN "Part #"
-	1    7650 4200
+P 7700 8100
+F 0 "J3" H 7750 8750 50  0000 R CNN
+F 1 "8P8C_Shielded_x4" H 8050 8650 50  0000 R CNN
+F 2 "Custom Footprints:RJ45_x4-RJSSE-5380-04" V 7700 8125 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsse538004.pdf" V 7700 8125 50  0001 C CNN
+F 4 "Amphenol ICC (Commercial Products)" H 7700 8100 50  0001 C CNN "Manufacturer"
+F 5 "RJSSE-5380-04" H 7700 8100 50  0001 C CNN "Part #"
+	1    7700 8100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -272,7 +272,7 @@ Text Label 4800 5150 2    50   ~ 0
 LED4-
 Wire Wire Line
 	4200 4850 4200 4950
-Text Label 4200 4900 0    50   ~ 0
+Text Label 3250 4300 2    50   ~ 0
 CH4
 Wire Wire Line
 	3250 4250 3250 4350
@@ -280,11 +280,11 @@ Wire Wire Line
 	3250 4450 3250 4550
 Wire Wire Line
 	3250 4650 3250 4750
-Text Label 3250 4700 2    50   ~ 0
-CH3
 Text Label 3250 4500 2    50   ~ 0
+CH3
+Text Label 3250 4700 2    50   ~ 0
 CH2
-Text Label 3250 4300 2    50   ~ 0
+Text Label 4200 4900 0    50   ~ 0
 CH1
 Text Label 4200 4450 0    50   ~ 0
 Gate1
@@ -1015,10 +1015,10 @@ F 5 "4689-2520-S-12" H 4100 9300 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:DMN32D2LDF-7 Q?
+L Custom_parts:DMN32D2LDF-7 Q2
 U 1 1 617D9FE3
 P 4100 7550
-F 0 "Q?" H 4200 8147 60  0000 C CNN
+F 0 "Q2" H 4200 8147 60  0000 C CNN
 F 1 "DMN32D2LDF-7" H 4200 8041 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 3750 6750 60  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds31238.pdf" H 3400 6850 60  0001 L CNN

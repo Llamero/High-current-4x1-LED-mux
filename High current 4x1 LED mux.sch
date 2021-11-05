@@ -234,11 +234,11 @@ F 5 "MIC4468ZWM-TR" H 3250 4250 50  0001 C CNN "Part #"
 $EndComp
 Wire Wire Line
 	4500 4550 4500 4350
-Text Label 4800 3650 2    50   ~ 0
+Text Label 4800 5150 2    50   ~ 0
 LED1-
-Text Label 4800 4150 2    50   ~ 0
-LED2-
 Text Label 4800 4650 2    50   ~ 0
+LED2-
+Text Label 4800 4150 2    50   ~ 0
 LED3-
 Wire Wire Line
 	4500 4650 4500 4850
@@ -268,7 +268,7 @@ F 3 "" H 3250 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3250 4950
-Text Label 4800 5150 2    50   ~ 0
+Text Label 4800 3650 2    50   ~ 0
 LED4-
 Wire Wire Line
 	4200 4850 4200 4950
@@ -286,13 +286,13 @@ Text Label 3250 4700 2    50   ~ 0
 CH2
 Text Label 4200 4900 0    50   ~ 0
 CH1
-Text Label 4200 4450 0    50   ~ 0
-Gate1
-Text Label 4200 4550 0    50   ~ 0
-Gate2
-Text Label 4200 4650 0    50   ~ 0
-Gate3
 Text Label 4200 4750 0    50   ~ 0
+Gate1
+Text Label 4200 4650 0    50   ~ 0
+Gate2
+Text Label 4200 4550 0    50   ~ 0
+Gate3
+Text Label 4200 4450 0    50   ~ 0
 Gate4
 Wire Wire Line
 	4200 4450 4450 4450
