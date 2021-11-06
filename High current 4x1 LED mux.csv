@@ -1,0 +1,19 @@
+Source:,C:\Users\Ben\Documents\GitHub\High current LED mux\High current 4x1 LED mux\High current 4x1 LED mux.sch,,,,,,
+Date:,11/6/2021 13:24,,,,,,
+Tool:,Eeschema (5.1.6)-1,,,,,,
+Generator:,D:\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py,,,,,,
+Component Count:,34,,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,Digikey part #
+"C1, ",1,2.2uF,C_Small,Custom Footprints:0508_Capacitor,"Unpolarized capacitor, small symbol",,587-5165-1-ND
+"D1, D2, D3, D4, ",4,TVS_Diode,D_Zener_Small_ALT,Custom Footprints:DO-214AA,"Zener diode, small symbol, filled shape",,732-9790-1-ND
+"H1, H2, H3, H4, ",8,MountingHole,MountingHole,Custom Footprints:14-20_standoff,Mounting Hole without connection,,1772-1298-ND
+"HS1, HS2, ",2,HS-PCB,Heatsink,Custom Footprints:Heatsink_910-40-2-23-2-B-0,Heatsink,,910-40-2-23-2-B-0
+"J1, ",1,Barrel_Jack_Switch,Barrel_Jack_Switch,Custom Footprints:DC-jack_54-00165,DC Barrel Jack with an internal switch,,839-54-00165CT-ND
+"J2, ",1,Conn_01x04_Female,Conn_01x04_Female,Custom Footprints:DC_DC_converter-3S4A_1218S1UP,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",,S5596-ND
+"J3, ",1,8P8C_Shielded_x4,8P8C_Shielded_x4,Custom Footprints:RJ45_x4-RJSSE-5380-04,"RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded",,RJSSE-5380-04-ND
+"JP1, JP2, JP3, JP4, JP5, ",10,Quick Connect,Jumper_NO_Small,Custom Footprints:4928TR-power,"Jumper, normally open, small symbol",,36-4928CT-ND
+"M1, M2, M3, M4, ",4,Fan_4pin,Fan_4pin,Custom Footprints:4-pin_fan_SMD,"Fan, tacho output, PWM input, 4-pin connector",,SAM12225-ND
+"Q1, Q2, Q3, Q4, ",4,SUM70060E,Q_NMOS_GDS,Package_TO_SOT_SMD:TO-263-2,"N-MOSFET transistor, gate/drain/source",,742-SUM70042E-GE3-ND
+"Q5, Q6, ",2,DMN32D2LDF-7,DMN32D2LDF-7,Package_TO_SOT_SMD:SOT-353_SC-70-5,MOSFET 2N-CH 60V 0.115A SC70-6,,DMN32D2LDF-7DICT-ND
+"U1, ",1,MIC4468ZWM-TR,MIC4468ZWM-TR-Custom_parts-High-current-1x4-LED-mux-rescue,Custom Footprints:MIC4468ZWM-TR,,,MIC4468ZWM-CT-ND
+"U2, ",1,DC DC Converter,Conn_01x04_Male,Custom Footprints:Ref_only,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",,3182-3S4A_1218S1UP-ND
