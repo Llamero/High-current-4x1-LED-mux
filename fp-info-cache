@@ -1,4 +1,4 @@
-19485131061152873
+19472099691825933
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48783,13 +48783,6 @@ Surface mounted pin header SMD 1x03 2.54mm single row style2 pin1 right
 3
 3
 Custom Footprints
-14-20_standoff
-
-
-0
-1
-1
-Custom Footprints
 20A_shunt_5104
 
 
@@ -48881,20 +48874,6 @@ Custom Footprints
 3
 3
 Custom Footprints
-4928TR-LED
-4928TR-1
-Undefined or Miscellaneous
-0
-6
-2
-Custom Footprints
-4928TR-power
-4928TR-1
-Undefined or Miscellaneous
-0
-6
-2
-Custom Footprints
 ADP7118AUJZ-R7
 
 
@@ -48950,13 +48929,6 @@ DC-jack_54-00165
 0
 4
 3
-Custom Footprints
-DC_DC_converter-3S4A_1218S1UP
-surface-mounted straight socket strip, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
-Surface mounted socket strip SMD 1x04 2.54mm single row style1 pin1 left
-0
-4
-4
 Custom Footprints
 DO-214AA
 
@@ -49049,26 +49021,12 @@ M2_standoff_ground_via
 1
 1
 Custom Footprints
-M4_bolt_hole
-
-
-0
-1
-1
-Custom Footprints
 MCP4351-502E
 
 
 0
 20
 20
-Custom Footprints
-MIC4468ZWM-TR
-
-
-0
-16
-16
 Custom Footprints
 Molex_RJ45_855437001
 
@@ -49082,13 +49040,6 @@ NF-A9_with_standoffs_and_bolts
 
 0
 3
-1
-Custom Footprints
-NF-A9_with_standoffs_and_bolts_high_current
-
-
-0
-4
 1
 Custom Footprints
 P091S-FC20BR10K
@@ -49139,13 +49090,6 @@ Ref_only
 0
 0
 0
-Custom Footprints
-Rideon_PFS35_resistor
-
-
-0
-3
-2
 Custom Footprints
 S18V20F12_12V_DC
 

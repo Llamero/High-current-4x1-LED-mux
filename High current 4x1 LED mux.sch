@@ -220,7 +220,7 @@ $EndComp
 Text Label 4800 5550 2    50   ~ 0
 LED-
 $Comp
-L High-current-4x1-LED-mux-rescue:MIC4468ZWM-TR-Custom_parts-High-current-1x4-LED-mux-rescue U1
+L High-current-4x1-LED-mux-rescue:MIC4468ZWM-TR-Custom_parts-High-current-1x4-LED-mux-rescue-High-current-4x1-LED-mux-rescue U1
 U 1 1 617F4C37
 P 3250 4250
 F 0 "U1" H 3725 4507 60  0000 C CNN
@@ -516,7 +516,7 @@ F 5 "4928" H 6300 4400 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:DMN32D2LDF-7 Q5
+L High-current-4x1-LED-mux-rescue:DMN32D2LDF-7-Custom_parts Q5
 U 1 1 6186157F
 P 4100 6600
 F 0 "Q5" H 4200 7197 60  0000 C CNN
@@ -1015,7 +1015,7 @@ F 5 "4689-2520-S-12" H 4100 9300 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_parts:DMN32D2LDF-7 Q6
+L High-current-4x1-LED-mux-rescue:DMN32D2LDF-7-Custom_parts Q6
 U 1 1 617D9FE3
 P 4100 7550
 F 0 "Q6" H 4200 8147 60  0000 C CNN
